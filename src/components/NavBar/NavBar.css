@@ -1,11 +1,13 @@
-.nav {
+/*.nav {
     list-style-type: none;
     margin: 0;
-    padding: 0px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     background-color: bisque;
     color: brown;
+    display: inline-block;    
+    margin-top: 15px;   
 }
 
 .nav a {
@@ -16,4 +18,18 @@
 
 .nav a:hover {
     color: blue;
+}*/
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    /*margin-right: 20px;*/
+    margin-top: 15px;
+}
+
+.img {
+    background-color: bisque;
 }
