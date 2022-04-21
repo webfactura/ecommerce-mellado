@@ -19,15 +19,11 @@ function NavBar(props) {
                 
                 {/* Left links  */}
                 <a className="navbar-brand" href="#">
-                    
-
-                <img
-          src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-          height="25"
-          alt="MDB Logo"
-          loading="lazy"
-        />
-
+                    <img
+                    src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+                    height="25"
+                    alt="MDB Logo"
+                    loading="lazy"/>
                 </a>
                 <button
                 className="navbar-toggler"
@@ -38,7 +34,7 @@ function NavBar(props) {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
                 >
-                <i className="fas fa-bars"></i>
+                <i className="bi-water"></i>
                 </button>
 
                 {/* Center links  */}
