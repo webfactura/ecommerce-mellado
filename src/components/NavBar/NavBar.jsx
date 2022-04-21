@@ -3,7 +3,7 @@ import './NavBar.css';
 import logo from './logo_ecommerce.png';
 import CartWidget from '../CartWidget';
 
-function NavBar(props) {
+function NavBar() {
     return (
         /*<div>
             <img className="logo" src={logo} alt=""/>
@@ -54,7 +54,7 @@ function NavBar(props) {
                 </div>
 
                 {/* Right links  */}               
-                <div class="d-flex align-items-center">
+                <div className="d-flex align-items-center">
                     <CartWidget />
                 </div>
 
